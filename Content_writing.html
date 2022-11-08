@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+   <!-- counter cdn -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- counter cdn end -->
+   
+   <style>
+        #circle{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+        .spann{
+            border: 1px solid black;
+            height: 300px;
+        }
+     
+        
+       .item:hover{
+        background-color:#f4fafe;
+       
+        border-radius: 8px;        
+       } 
+      .item{
+        padding-left: 20px;
+        height: 50px;
+        
+        
+      }
+
+       .linked{
+       
+        color: #697b93;
+        font-size: 1rem;
+      
+     /* margin-top: 5px; */
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+         font-weight: 700;
+         position: relative;
+         right: 50px;
+       
+
+       }
+       #input1:hover{
+        border-bottom: 3px solid blue;
+       }
+       .allcounter{
+    margin-top:70px;
+    background-color: rgb(51, 51, 51);
+}
+.counter{
+    color: #fff;
+    text-align: center;
+}
+
+.counter-box {
+	display: block;
+	/* background: #f6f6f6; */
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	/* color: #909090; */
+	font-size: 18px;
+	font-weight: 500;
+    color:#fff
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	/* color: #d2d2d2 */
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	/* color: #666; */
+	line-height: 28px
+}
+
+/* .counter-box.colored {
+      background: #3acf87;
+} */
+
+/* .counter-box p,
+.counter-box.colored i,
+.counter-box.  {
+	color: #fff
+} */
+     
+       
+        
+    </style>
+
+        <link rel="icon" href="image/favicon_sooprs.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <link rel="apple-touch-icon" href="sooprs_site_files/logo192.png" />
+        <link rel="manifest" href="sooprs_site_files/manifest.json" />
+        <link rel="stylesheet" href="animate.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com/" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+        <link rel="stylesheet" href="./css2.txt" />
+        <link href="./css2(1).txt" rel="stylesheet" />
+        <link href="./css2(2).txt" rel="stylesheet" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./bootstrap-icons.css" />
+        <title>Sooprs</title>
+       <!--  <script defer="defer" src="./sooprs_site_files/main.5f94675f.js.download"></script> -->
+        <link href="./main.dccdc21d.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1083.0" data-gr-ext-installed="" cz-shortcut-listen="true" onload="myfunction()">
+        
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+       <!--  <script src="./sooprs_site_files/bootstrap.bundle.min.js.download" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <div id="root"> -->
+            <div style="position: relative;">
+                <nav class="navbar navbar-expand-lg navbar-light" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="sooprs_site_files/" style="color: rgb(252, 153, 24); font-family: 'Cormorant Garamond', serif; font-size: 32px;">
+                            <img src="./image/sooprs_logo_blue_side.png" alt="logo" style="height: 90px; " />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-end mb-2 mb-lg-0 text-center">
+                                <li class="nav-item dropdown dropdown-mega position-static">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="sooprs_site_files/#"
+                                        data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside"
+                                        style="font-family: Poppins, sans-serif; font-size: 25px;"
+                                        aria-expanded="false"
+                                        
+                                    >
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu shadow service" id="service">
+                                        <div class="mega-content px-4">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-3 py-4">
+                                                        <h5 class="mb-4" class="devlop1">Development 1.0</h5>
+                                                        <div class="list-group">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;  " >
+                                                                <img src="./service logo image/develop1.0/webDev.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="web.html" style="text-align: center;">Web Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;  " >
+                                                                <img src="./service logo image/develop1.0/apk.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="app.html" style="text-align: center;"> App Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 320px; " >
+                                                                <img src="./service logo image/develop1.0/hybrid.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="hybrid.html" style="text-align: center;">Hybrid App Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row; align-items: center;width: 280px; ">
+                                                                <img src="./service logo image/develop1.0/iphone.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="iphone.html">Iphone Devlopment</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/develop1.0/game.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="game_devlop.html">Game Devlopment</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Development 2.0</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 280px; ">
+                                                                <img src="./service logo image//develop2.0/iot.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="IOT.html">Internets Of Things</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 280px;">
+                                                                <img src="./service logo image//develop2.0/ai.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="artificial_intell.html">Artifical Intelligence</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image//develop2.0/ml.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="machine_learning.html">Machine Learning</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/ar.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="argument_realty.html">Agumented Reality</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/vr.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="virtual_realty.html">Virtual Reality</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/data.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Data_Analytics.html">Data Analytics</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Digital Marketing</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/digital markting/seo.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="SEO_SMO.html">SEO &amp; SMO</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/digital markting/copywriting.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Content_writing.html">Content Writing</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/digital markting/webdesign.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Graphics_design.html">Graphic Designing</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Cloud Services</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/cloud service/web.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Hosting_service.html">Hosting Service</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; align-items: center;">
+                                                                <img src="./service logo image/cloud service/sms.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Buy_SMS.html">Buy SMS</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;">
+                                                                <img src="./service logo image/cloud service/cloud.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Cloud_security.html">Cloud Securtiy</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/cloud service/secured.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="platfarm_security.html">Platform Security</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="button.html" class="themeButton" style="font-family:Poppins,sans-serif; font-size: 20px;">How its works</a>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <div role="main" class="main">
+
+                    <section class="page-header page-header-modern custom-page-header-style-1 bg-color-primary page-header-lg mb-0">
+                        <div class="container container-lg py-5">
+                            <div class="row">
+                                <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+                                    <h1 class="font-weight-extra-bold text-14 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Content Writing</h1>
+                                </div>
+                                <div class="col-md-4 order-1 order-md-2 align-self-center">
+                                    <ul class="breadcrumb d-block text-md-right breadcrumb-light appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+                                        <li><a href="#">Home</a></li>
+                                        <li class="active">Services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section class="section custom-section-full-width bg-color-transparent border-0 mt-0 mb-1" style="background-image: url(img/demos/it-services/backgrounds/dots-background-2.png); background-repeat: no-repeat; background-position: bottom right;">
+                        <div class="container container-lg pt-3 mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-md-7 mb-5 mb-md-0">
+                                    <div class="overflow-hidden mb-2">
+                                        <span class="d-block font-weight-bold custom-text-color-grey-1 line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">EXTEND YOUR BUSINESS</span>
+                                    </div>
+                                    <div class="overflow-hidden mb-4">
+                                        <h2 class="text-color-dark font-weight-bold text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Content Writing</h2>
+                                    </div>
+                                    <p class="custom-text-size-1 pt-3 pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Techninza comes to you as a one-stop solution for all your content writing needs. We receive the right methodology in creating the content thereby attracting a wide variety of audience. We employ the best talent and creativity to leverage your business. Our expertise across channels, in-depth analysis techniques, and self-innovated technologies help us ensure that consumers meet your brand exactly when they are looking for it. It is a good idea to choose us for all your digital marketing needs as we customer satisfaction is our utmost priority.</p>
+                                    
+                                </div>
+                                <div class="col-lg-6 col-xl-4 position-relative px-xl-4 mx-auto mb-5 mb-lg-0 mt-lg-5">
+                                    <style>
+        
+    /* Modal Content */
+    .modalforgot-content2 {
+      background-color: #fefefe;
+      /*margin: auto;*/
+      padding: 30px;
+      border: 1px solid #888;
+      width: 420px;
+      border-radius: 8px;
+       /*background-image:url('img/popup-form-img2.jpg');*/
+    }
+    input{
+        margin-bottom:15px;
+        height:45px !important;
+        color:#000 !important;
+        font-size:15px!important;
+        border-radius:10px!important;
+        /*border: none!important;*/
+    }
+    textarea{
+       margin-bottom:15px; 
+       color:#000 !important;
+        font-size:15px!important;
+        border-radius:10px!important;
+        /*border: none!important;*/
+    }
+    #contactForm_submit_services{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background-color: #0053ce;
+        text-align: center;
+        line-height: 1;
+        border: 1px #0053ce;
+        /*border-radius: 10px;*/
+        border-radius:50px!important;
+    }
+    </style>
+    
+    <!-- The Modal -->
+    <div id="myModalforgot2" class="modalforgot2">
+    
+      <!-- Modal content -->
+      <div class="modalforgot-content2">
+        <!--<span class="close">&times;</span>-->
+        
+        <div class="forgotform">
+             <div class="alert"></div>
+            <h4>GET IN TOUCH..</h4>
+           
+            <form method="post" id="contactFrm_services">
+                <input type="text" name="name1" id="name1" placeholder="Your Name" class="form-control">
+                <input type="text" name="email1" id="email1" placeholder="Your email" class="form-control">
+                
+                <input type="text" name="mobile1" id="mobile1" placeholder="Your mobile" class="form-control" >
+                <select type="text" name="services1" id="services1" class="form-control" >
+                    <option value="0">-select services-</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="App Development">App Development</option>
+                    <option value="iOS Development">iOS Development</option>
+                    <option value="Android Development">Android Development</option>
+                    <option value="Hybrid Development">Hybrid Development</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="others">Others</option>
+                </select>
+                <textarea type="text" name="msg1" id="subject1" placeholder="Message" class="form-control" rows="5" ></textarea>
+                <button id="contactForm_submit_services" class="form-control">submit</submit>
+            </form>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            
+            $("button#contactForm_submit_services").click(function(e){
+                e.preventDefault();
+                var name1 = $("#name1").val();
+                var email1 = $("#email1").val();
+                var mobile1 = $("#mobile1").val();
+                var sub1 = $("#subject1").val();
+                var services1 = $("#services1").val();
+                if(name1 == ''){
+                    $("#name1").attr("placeholder","please enter your name");
+                    $("#name1").append("<style>#name1::placeholder{color:red}</style>");
+                    $("#name1").css("borderColor","red");
+                    return false;
+                }else{
+                $("#name1").css("borderColor","green");
+                }
+                if(email1 == '' || isCEmail1(email1)!= true){
+                    $("#email1").attr("placeholder","please enter your email");
+                    $("#email1").append("<style>#email1::placeholder{color:red}</style>");
+                    $("#email1").css("borderColor","red");
+                    return false;
+                }else{
+                $("#email1").css("borderColor","green");
+                }
+                if(mobile == '' || isMobile1(mobile1)!= true){
+                    $("#mobile1").attr("placeholder","please enter your mobile");
+                    $("#mobile1").append("<style>#mobile1::placeholder{color:red}</style>");
+                    $("#mobile1").css("borderColor","red");
+                    return false;
+                }else{
+                $("#mobile1").css("borderColor","green");
+                }
+                
+                if(services1 == '0'){
+                    $("#services1").attr("placeholder","please select services");
+                    $("#services1").append("<style>#services1::placeholder{color:red}</style>");
+                    $("#services1").css("borderColor","red");
+                    return false;
+                }else{
+                $("#services1").css("borderColor","green");
+                }
+                
+                
+                
+                if(sub1 == ''){
+                    $("#subject1").attr("placeholder","please enter your subject");
+                    $("#subject1").append("<style>#subject1::placeholder{color:red}</style>");
+                    $("#subject1").css("borderColor","red");
+                    return false;
+                }else{
+                $("#subject1").css("borderColor","green");
+                }
+                
+                if(name1 != '' || email1 != '' || mobile1 != '' || sub1 != ''||services1!='0' ){
+                    //mail("gokul@techninza.com","My subject",$msg);
+                    $("#cover-spin").show(0);
+                    var form = $("form#contactFrm_services")[0];
+                    $.ajax({
+                        url:"mailtest2.php",
+                        method:"POST",
+                        data: new FormData(form),
+                        contentType:false,
+                        processData:false,
+                        cache:false,
+                        success:function(data){
+                            $("#cover-spin").hide();
+                            $(".alert").append("<p style='background: #dc3545;color: #fff!important; font-size: 15px; padding-top: 5px;padding-bottom: 5px;'>Request Sent</p>").show(0);
+                             setTimeout(function () {
+                                $(".alert").hide();
+                                window.location.href="thankyou";
+                                get_record_cust1(name1,email1,mobile1,services1,sub1);
+                            }, 1000);
+                        }
+                })
+                
+            }
+            }); 
+        });
+        
+    </script>
+    
+    
+    <script>
+        // check email is valid
+    
+    function isCEmail1(email1) {
+      var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      return regex.test(email1);
+    }
+    
+    
+    // check phone no is valid
+    
+    function isMobile1(mobile1) {
+      var mob = /^[1-9]{1}[0-9]{9}$/;
+      return mob.test(mobile1);
+    }
+    
+    </script>
+    
+    <script>
+        function get_record_cust1(name1,email1,mobile1,services1,sub1){
+            var form2 = new FormData();
+            form2.append("name1",name1);
+            form2.append("email1",email1);
+            form2.append("mobile1",mobile1);
+            form2.append("services1",services1);
+            form2.append("msg1",sub1);
+            $.ajax({
+                        url:"save_cust_record2.php",
+                        method:"POST",
+                        data: form2,
+                        contentType:false,
+                        processData:false,
+                        cache:false,
+                        success:function(data){
+                            
+                        }
+                })
+        }
+    </script>                                <!--<img src="img/demos/it-services/careers/puzzle-1.png" class="img-fluid custom-position-center-x-y z-index-0" alt="Puzzle Background" />-->
+                                    <!--<img src="img/demos/it-services/careers/generic-1.jpg" class="img-fluid position-relative z-index-1" alt="Our Emplyer Culture" />-->
+                                </div>
+                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    
+                    
+    <style>
+        .testslider-item{
+            width:360px;
+            max-height:310px;
+            margin-left:15px;
+        }
+        .testslider-item img{
+            width:100%;
+            height:100%;
+        }
+        .ours_project_section{
+            padding-top:50px;
+            padding-bottom:70px;
+        }
+        .slick-prev:before, .slick-next:before{
+               color: #f7f7f7 !important;
+        background: #ccc;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+        
+      .slick-prev:before, .slick-next:before {
+              font-size: 32px !important;
+      }
+        
+    </style>
+    
+    
+    
+    
+      
+    
+    
+    
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <script>
+        $('.testslider').slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+        arrows: true,
+        autoplay: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    </script>
+
+
+                <br />
+                <div class="section footer" style="padding: 0px 8%; margin-bottom: 0px;">
+                    <div class="row justify-content-between">
+                        <div class="col-md-3">
+                            <a class="navbar-brand" href="sooprs_site_files/#/" style="color: rgb(1, 84, 206); font-family: 'Cormorant Garamond', serif; font-size: 32px;">
+                                <img src="./image/sooprs.png" alt="logo" style="height: 40px;" />
+                            </a>
+                            <br />
+                            <br />
+                            <span style="font-size: 18px;font-family:poppins;">We Work , 1st Floor , Vi-John Tower 393, Phase III, Udyog Vihar, Gurugram, Haryana 122016</span>
+                            <div class="iconsRow">
+                                <a href="https://www.techninza.in/"><img src="./image/google (1).png" alt="google" /></a>
+                                <a href="https://www.facebook.com/techninza.in" target="_blank"><img src="./image/fb.png" alt="fb" /></a>
+                                <a href="https://in.linkedin.com/company/techninza"><img src="./image/linkedin.png" alt="linkedin" /></a>
+                            </div>
+                            <a href="tel:91 8178924823" class="darkLink" style="font-size:18px;"
+                    ><i class="fa fa-phone" style="margin-right: 10px;"></i>+91 8178924823</a><br />
+                            <a href="mailto:info@techninza.in" class="darkLink" style="font-size:18px;"><i class="fa fa-envelope " style="margin-right: 10px; "></i>info@techninza.in</a>
+                        </div>
+                        <div class="col-md-8 mt-3">
+                            <div class="row">
+                                <div class="col-md-3 c" style="display: flex; flex-direction: column;">
+                                    <h5 style="font-size: 1.35rem;">Useful Links</h5>
+                                    <a href="web.html" class="darkLink" style="font-size: 16px;">Web development</a><a href="app.html" class="darkLink"style="font-size: 18px;">App development</a>
+                                    <a href="hybrid.html" class="darkLink"style="font-size: 16px;width:200px">Hybrid App development</a><a href="digital_markting.html" class="darkLink"style="font-size: 18px;">Digital Marketing</a>
+                                    <a href="sitemap.html" class="darkLink"style="font-size: 16px;">Sitemap</a>
+                                </div>
+                                <div class="col-md-3 " style="display: flex; flex-direction: column;">
+                                    <h5>Company</h5>
+                                    <a href="web.html" class="darkLink"style="font-size: 16px;">About</a><a href="press.html" class="darkLink"style="font-size: 18px;">Press</a>
+                                    <a href="career.html" class="darkLink"style="font-size: 16px;">Careers</a><a href="" class="darkLink"style="font-size: 18px;">Contact</a>
+                                    <a href="partner.html" class="darkLink"style="font-size: 16px;">Partners</a>
+                                </div>
+                                <div class="col-md-3 " style="display: flex; flex-direction: column;">
+                                    <h5>Support</h5>
+                                    <a href="help_center.html" class="darkLink"style="font-size: 16px;">Help Center</a><a href="safety-center.html" class="darkLink"style="font-size: 18px;">Safety Center</a>
+                                    <a href="legel.html" class="darkLink"style="font-size: 16px;">Legal</a><a href="privacy_policy.html" class="darkLink"style="font-size: 18px;">Privacy policy</a>
+                                    <a href="status.html" class="darkLink"style="font-size: 16px;">Status</a>
+                                </div>
+                                <div class="col-md-3" style="display: flex; flex-direction: column;">
+                                    <h5>Legal</h5>
+                                    <a href="cookies_policy.html" class="darkLink"style="font-size: 16px;">Cookies Policy</a><a href="privacy_policy.html" class="darkLink"style="font-size: 18px;">Privacy Policy</a>
+                                    <a href="term_service.html" class="darkLink"style="font-size: 16px;">Terms of Service</a><a href="law_enforcement.html" class="darkLink"style="font-size: 18px;">Law Enforcement</a>
+                                    <a href="status.html" class="darkLink"style="font-size: 18px;">Status</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <hr style="background-color: rgb(0, 83, 206); height: 2px;" />
+                <div class="row justify-content-between" style="padding: 0px 8%; margin-bottom: 20px; width: 100%;">
+                    <div class="col-md-4">Sooprs.com © 2022 All Rights Reserved</div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

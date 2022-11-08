@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)sooprs_site_files/# -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <style>
+        #circle{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+        .spann{
+            border: 1px solid black;
+            height: 300px;
+        }
+     
+        
+       .item:hover{
+        background-color:#f4fafe;
+       
+        border-radius: 8px;        
+       } 
+      .item{
+        padding-left: 20px;
+        height: 50px;
+        
+      }
+
+       .linked{
+        /* padding-left: 10px; */
+        /* padding-right: 50px; */
+        /* border-left-width: 250px; */
+        color: #697b93;
+        font-size: 1rem;
+      
+     /* margin-top: 5px; */
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+         font-weight: 700;
+       
+
+       }
+       #input1:hover{
+        border-bottom: 3px solid blue;
+       }
+     
+       
+        /* *{
+            margin: auto;
+        }
+        
+        .owl-nav button{
+            border: 2px solid red!important;
+            outline: none !important;
+        }
+        .owl-prev, .owl-next{
+            position: absolute;
+            top: 50%;
+            transform:translateY(-50%);
+            color: cyan !important;
+            font-size:60px !important;
+            font-weight: bolder;
+        }
+        .owl-prev{
+            left: 1%;
+            
+        }
+        .owl-next{
+            right: 1%;
+        } */
+        
+    </style>
+
+        <link rel="icon" href="image/favicon_sooprs.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <link rel="apple-touch-icon" href="sooprs_site_files/logo192.png" />
+        <link rel="manifest" href="sooprs_site_files/manifest.json" />
+        <link rel="stylesheet" href="animate.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com/" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+        <link rel="stylesheet" href="./css2.txt" />
+        <link href="./css2(1).txt" rel="stylesheet" />
+        <link href="./css2(2).txt" rel="stylesheet" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./bootstrap-icons.css" />
+        <title>Sooprs</title>
+       <!--  <script defer="defer" src="./sooprs_site_files/main.5f94675f.js.download"></script> -->
+        <link href="./main.dccdc21d.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1083.0" data-gr-ext-installed="" cz-shortcut-listen="true" onload="myfunction()">
+        
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+       <!--  <script src="./sooprs_site_files/bootstrap.bundle.min.js.download" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <div id="root"> -->
+            <div style="position: relative;">
+                <nav class="navbar navbar-expand-lg navbar-light" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="sooprs_site_files/" style="color: rgb(252, 153, 24); font-family: 'Cormorant Garamond', serif; font-size: 32px;">
+                            <img src="./image/sooprs_logo_blue_side.png" alt="logo" style="height: 90px; " />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-end mb-2 mb-lg-0 text-center">
+                                <li class="nav-item dropdown dropdown-mega position-static">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="sooprs_site_files/#"
+                                        data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside"
+                                        style="font-family: Poppins, sans-serif; font-size: 25px;"
+                                        aria-expanded="false"
+                                        
+                                    >
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu shadow service" id="service">
+                                        <div class="mega-content px-4">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-3 py-4">
+                                                        <h5 class="mb-4" class="devlop1">Development 1.0</h5>
+                                                        <div class="list-group">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;  " >
+                                                                <img src="./service logo image/develop1.0/webDev.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="web.html" style="text-align: center;">Web Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;  " >
+                                                                <img src="./service logo image/develop1.0/apk.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="app.html" style="text-align: center;"> App Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 320px; " >
+                                                                <img src="./service logo image/develop1.0/hybrid.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="hybrid.html" style="text-align: center;">Hybrid App Development</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row; align-items: center;width: 280px; ">
+                                                                <img src="./service logo image/develop1.0/iphone.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="iphone.html">Iphone Devlopment</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/develop1.0/game.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="game_devlop.html">Game Devlopment</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Development 2.0</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 280px; ">
+                                                                <img src="./service logo image//develop2.0/iot.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="IOT.html">Internets Of Things</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;width: 280px;">
+                                                                <img src="./service logo image//develop2.0/ai.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="artificial_intell.html">Artifical Intelligence</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image//develop2.0/ml.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="machine_learning.html">Machine Learning</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/ar.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="argument_realty.html">Agumented Reality</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/vr.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="virtual_realty.html">Virtual Reality</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image//develop2.0/data.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Data_Analytics.html">Data Analytics</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Digital Marketing</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/digital markting/seo.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="SEO_SMO.html">SEO &amp; SMO</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/digital markting/copywriting.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Content_writing.html">Content Writing</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center;">
+                                                                <img src="./service logo image/digital markting/webdesign.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Graphics_design.html">Graphic Designing</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Cloud Services</h5>
+                                                        <div class="list-group mt-3">
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/cloud service/web.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Hosting_service.html">Hosting Service</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; align-items: center;">
+                                                                <img src="./service logo image/cloud service/sms.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Buy_SMS.html">Buy SMS</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;">
+                                                                <img src="./service logo image/cloud service/cloud.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="Cloud_security.html">Cloud Securtiy</a>
+                                                            </span>
+                                                            <span class="mb-2 item" style="display: flex; flex-direction: row;align-items: center; ">
+                                                                <img src="./service logo image/cloud service/secured.png" width="50px" height="35px" style="margin-right: 10px;" />
+                                                                <a class="ml-5 linked" href="platfarm_security.html">Platform Security</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="button.html" class="themeButton" style="font-family:Poppins,sans-serif; font-size: 20px;">How its works</a>
+                        </div>
+                    </div>
+                </nav>
+                <div role="main" class="main">
+
+                    <section class="page-header">
+                       
+                            <div class="row">
+                               <img class="banner-img-service" src="image/Software-Company.png">
+                            </div>
+                    
+                    </section>
+    
+                    <section class="section custom-section-full-width bg-color-transparent border-0 mt-0 mb-1" style="background-image: url(img/demos/it-services/backgrounds/dots-background-2.png); background-repeat: no-repeat; background-position: bottom right;">
+                        <div class="container container-lg pt-3 mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-md-7 mb-5 mb-md-0">
+                                    <div class="overflow-hidden mb-2">
+                                        <span class="d-block font-weight-bold custom-text-color-grey-1 line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">EXTEND YOUR BUSINESS</span>
+                                    </div>
+                                    <div class="overflow-hidden mb-4">
+                                        <h2 class="text-color-dark font-weight-bold text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Website Development Service</h2>
+                                    </div>
+                                    <p class="custom-text-size-1 pt-3 pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Our organization is Global Software Solution firm offering Total Software Solution, Services and Products for Mobile and Web platforms. We discover, design and deliver from easy to complex mobile and web solutions for various business verticals from over the world. With the broad ability, we have the capacity to offer our customers with end-to-end business solutions for quicken their inner and outer procedures.
+    </p>
+                                    <p class="custom-text-size-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+    Techninza is a web design agency and software development company in Gurgaon. Our dedicated team has successfully delivered a wide range of commercial projects based on PHP, NodeJs, Java, Laravel, Magento, Opencart, Wordpress, WooCommerce and front-end technologies like AngularJS, ReactJs, custom JS to develop Custom and Responsive websites, Progressive Webapp (PWA), Web apps, and E-commerce solutions. We also provide customized services for the organization. High - Quality themes, unique designs and appealing website layouts make the website looks great. A user friendly website help the organisation to stand out from its competitors. Our 10+ years of experience in website development help us to understand the client requirements & successfully deliver the project on time.
+    </p>
+    
+    <p class="custom-text-size-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+    We design and develop websites for the  Hotel industry, Spa & Massage, Coupon industry, E-commerce, Edutech, Grocery Shopping and many more. Lets discuss on your Project!
+    
+    E-commerce website development renders you with the open door where you can showcase your products online for offering reason. Obviously, a considerable measure of diligent work and cash goes in making E-commerce website keeping in mind the end goal to take it to the level of achievement.</p>
+                                </div>
+                                <!-- <div class="col-lg-6 col-xl-4 position-relative px-xl-4 mx-auto mb-5 mb-lg-0 mt-lg-5"> -->
+                                    <!--<img src="img/demos/it-services/careers/puzzle-1.png" class="img-fluid custom-position-center-x-y z-index-0" alt="Puzzle Background" />-->
+                                    <!--<img src="img/demos/it-services/careers/generic-1.jpg" class="img-fluid position-relative z-index-1" alt="Our Emplyer Culture" />-->
+                                    
+                                    <style>
+        
+    /* Modal Content */
+    .modalforgot-content2 {
+      background-color: #fefefe;
+      /*margin: auto;*/
+      padding: 30px;
+      border: 1px solid #888;
+      width: 420px;
+      border-radius: 8px;
+       /*background-image:url('img/popup-form-img2.jpg');*/
+    }
+    input{
+        margin-bottom:15px;
+        height:45px !important;
+        color:#000 !important;
+        font-size:15px!important;
+        border-radius:10px!important;
+        /*border: none!important;*/
+    }
+    textarea{
+       margin-bottom:15px; 
+       color:#000 !important;
+        font-size:15px!important;
+        border-radius:10px!important;
+        /*border: none!important;*/
+    }
+    #contactForm_submit_services{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background-color: #0053ce;
+        text-align: center;
+        line-height: 1;
+        border: 1px #0053ce;
+        /*border-radius: 10px;*/
+        border-radius:50px!important;
+    }
+    </style>
+               
+
+                  
+
+
+               
+               
+                <br />
+                <div class="section footer" style="padding: 0px 8%; margin-bottom: 0px;">
+                    <div class="row justify-content-between">
+                        <div class="col-md-4">
+                            <a class="navbar-brand" href="sooprs_site_files/#/" style="color: rgb(1, 84, 206); font-family: 'Cormorant Garamond', serif; font-size: 32px;">
+                                <img src="./image/sooprs.png" alt="logo" style="height: 40px;" />
+                            </a>
+                            <br />
+                            <br />
+                            <span style="font-size: 18px;font-family:poppins;">We Work , 1st Floor , Vi-John Tower 393, Phase III, Udyog Vihar, Gurugram, Haryana 122016</span>
+                            <div class="iconsRow">
+                                <a href="https://in.linkedin.com/company/techninza"><img src="./image/google (1).png" alt="google" /></a>
+                                <a href="https://www.facebook.com/techninza.in" target="_blank"><img src="./image/fb.png" alt="fb" /></a>
+                                <a href="https://in.linkedin.com/company/techninza"><img src="./image/linkedin.png" alt="linkedin" /></a>
+                            </div>
+                            <a href="tel:+918178924823" class="darkLink" style="font-size:18px;"
+                    ><i class="fa fa-phone" style="margin-right: 10px;"></i>+91 8178924823</a><br />
+                            <a href="mailto:info@techninza.in" class="darkLink" style="font-size:18px;"><i class="fa fa-envelope " style="margin-right: 10px; "></i>info@techninza.in</a>
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <div class="row">
+                                <div class="col-md-3" style="display: flex; flex-direction: column;">
+                                    <h5 style="font-size: 1.35rem;">Useful Links</h5>
+                                    <a href="https://www.techninza.in/website-design.php" class="darkLink" style="font-size: 18px;">Web development</a><a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">App development</a>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Hybrid App development</a><a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Digital Marketing</a>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Sitemap</a>
+                                </div>
+                                <div class="col-md-3" style="display: flex; flex-direction: column;">
+                                    <h5>Company</h5>
+                                    <a href="shopninza.html" class="darkLink"style="font-size: 18px;">About</a><a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Press</a>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Careers</a><a href="" class="darkLink"style="font-size: 18px;">Contact</a>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Partners</a>
+                                </div>
+                                <div class="col-md-3" style="display: flex; flex-direction: column;">
+                                    <h5>Support</h5>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Help Center</a><a href="sooprs_site_files/#" class="darkLink"style="font-size: 18px;">Safety Center</a>
+                                    <a href="https://www.techninza.in/hybrid-development.php" class="darkLink"style="font-size: 18px;">Legal</a><a href="sooprs_site_files/#" class="darkLink"style="font-size: 18px;">Privacy policy</a>
+                                    <a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Status</a>
+                                </div>
+                                <div class="col-md-3" style="display: flex; flex-direction: column;">
+                                    <h5>Legal</h5>
+                                    <a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Cookies Policy</a><a href="sooprs_site_files/#" class="darkLink"style="font-size: 18px;">Privacy Policy</a>
+                                    <a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Terms of Service</a><a href="sooprs_site_files/#" class="darkLink"style="font-size: 18px;">Law Enforcement</a>
+                                    <a href="https://www.techninza.in/website-design.php" class="darkLink"style="font-size: 18px;">Status</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <hr style="background-color: rgb(0, 83, 206); height: 2px;" />
+                <div class="row justify-content-between" style="padding: 0px 8%; margin-bottom: 20px; width: 100%;">
+                    <div class="col-md-4">Sooprs.com © 2022 All Rights Reserved</div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    items:3, 
+    autoplay:true,
+    autoplayTimeout:2000, 
+    loop:true,
+    dots:true,
+    margin:5,
+    nav:true,
+    slideBy:1,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:true,
+            loop:true
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true
+        }
+    }
+})
+
+  </script>
+    </body>
+    
+</html>
